@@ -1,13 +1,14 @@
 /* Global Layout Set-up */
 * {
   box-sizing: border-box;
+  font-family: "Helvetica", sans-serif;
+  font-weight: lighter;
 }
 
 body {
   margin: 0;
   padding: 0;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
   color: #222;
   background: #f7f5f0;
 }
@@ -57,7 +58,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/background_pic.jpg') no-repeat top center ;
+  background: url('images/realfinal_pic.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
