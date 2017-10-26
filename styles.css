@@ -9,7 +9,7 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
-  color: #222;
+  color: #ead089;
   background: #f7f5f0;
 }
 /* Link Styles */
@@ -26,7 +26,8 @@ a:hover {
 
 .main-nav {
   width: 100%;
-  background: black;
+  background: #47301a;
+
   min-height: 30px;
   padding: 10px;
   position: fixed;
@@ -44,21 +45,22 @@ a:hover {
 .nav .name {
     display: block;
     margin-right: auto;
-    color: white;
+    color: #ead089;
 }
 .nav li {
   padding: 5px 10px 10px 10px;
+  color: #ead089;
 }
 .nav a {
   transition: all .5s;
 }
 .nav a:hover {
-  color: white
+  color: #ead089
 }
 
 header {
   text-align: center;
-  background: url('images/realfinal_pic.jpg') no-repeat top center ;
+  background: url('images/bakground_pic2.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -81,28 +83,28 @@ header .profile-image:hover {
 }
 .tag {
   background-color: #efefef;
-  color: black;
+  color: #47301a;
   padding: 10px;
   border-radius: 5px;
   display: table;
   margin: 10px auto;
 }
 .location {
-  background-color: #222;
-  color: yellow;
+  background-color: #47301a;
+  color: #dbb26b;
 }
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
-  background: #fff;
+  background: #47301a;
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #626555;
 }
 
 ul.skills {
@@ -132,6 +134,7 @@ footer {
 footer .copyright {
   top: -8px;
   font-size: .75em;
+  color: #47301a;
 }
 
 footer ul {
